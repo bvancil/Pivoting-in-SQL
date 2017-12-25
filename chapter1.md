@@ -27,6 +27,7 @@ From looking at the tabs, who is the first person listed in the `people` table?
 # You can use it to load packages, initialize datasets and draw a plot in the viewer
 
 connect('postgresql', 'films')
+set_options(visible_tables = ['films', 'people', 'roles'])
 ```
 
 `@instructions`
